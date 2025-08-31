@@ -104,7 +104,7 @@ fun CalculatorScreen() {
                     try {
                         val a = firstNumber.toDoubleOrNull() ?: 0.0
                         val b = secondNumber.toDoubleOrNull() ?: 0.0
-
+                        result = calculator.multiply(a, b).toString()
                     } catch (e: Exception) {
                         result = "Ошибка: ${e.message}"
                     }
@@ -120,7 +120,7 @@ fun CalculatorScreen() {
                         val a = firstNumber.toDoubleOrNull() ?: 0.0
                         val b = secondNumber.toDoubleOrNull() ?: 0.0
                         if (b != 0.0) {
-
+                            result = calculator.divide(a, b).toString()
                         } else {
                             result = "Ошибка: Деление на ноль"
                         }
