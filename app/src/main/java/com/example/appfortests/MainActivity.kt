@@ -177,7 +177,7 @@ fun CalculatorScreen() {
                     modifier = Modifier.padding(16.dp)
                 ) {
                     Text(
-                        text = "Результат вычислений:",
+                        text = "Результат:",
                         style = MaterialTheme.typography.labelMedium
                     )
                     Text(
