@@ -45,7 +45,7 @@ fun CalculatorScreen() {
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
         Text(
-            text = "Простой Калькулятор",
+            text = "ОЧЕНЬ Простой Калькулятор",
             style = MaterialTheme.typography.headlineMedium
         )
 
