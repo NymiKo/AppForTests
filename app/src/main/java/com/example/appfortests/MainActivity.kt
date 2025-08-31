@@ -177,7 +177,7 @@ fun CalculatorScreen() {
                     modifier = Modifier.padding(16.dp)
                 ) {
                     Text(
-                        text = "Результат:",
+                        text = "Результат вычислений:",
                         style = MaterialTheme.typography.labelMedium
                     )
                     Text(
@@ -205,7 +205,7 @@ fun CalculatorScreen() {
                 containerColor = MaterialTheme.colorScheme.error
             )
         ) {
-            Text("Очистить все")
+            Text("Очистить все значения")
         }
     }
 }
